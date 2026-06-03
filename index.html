@@ -19,9 +19,9 @@
   <body>
     <main class="content">
       <h1 class="visually-hidden">Time Tracking</h1>
-      <section class="dashboard">
+      <section class="dashboard" data-js-dashboard>
         <h2 class="visually-hidden">Time Tracking Dashboard</h2>
-        <div class="dashboard__wrapper">
+        <div class="dashboard__wrapper" data-js-dashboard-wrapper>
           <div class="dashboard__person">
             <div class="info-card">
               <div class="info-card_image-wrapper">
@@ -35,13 +35,14 @@
                 <h3 class="info-card__title">Jeremy Robson</h3>
               </div>
             </div>
-            <ul class="view-selectors" role="tablist">
+            <ul class="view-selectors" role="tablist" data-js-dashboard-tabs>
               <li class="view-selectors__item">
                 <button
                   class="view-selectors__button is-active"
                   type="button"
                   role="tab"
-                  aria-selected="true">
+                  aria-selected="true"
+                  data-js-dashboard-tab>
                   Daily
                 </button>
               </li>
@@ -50,7 +51,8 @@
                   class="view-selectors__button"
                   type="button"
                   role="tab"
-                  aria-selected="false">
+                  aria-selected="false"
+                  data-js-dashboard-tab>
                   Weekly
                 </button>
               </li>
@@ -59,167 +61,12 @@
                   class="view-selectors__button"
                   type="button"
                   role="tab"
-                  aria-selected="false">
+                  aria-selected="false"
+                  data-js-dashboard-tab>
                   Monthly
                 </button>
               </li>
             </ul>
-          </div>
-          <div class="dashboard__item dashboard__item--work">
-            <article class="tracking-card">
-              <header class="tracking-card__header">
-                <h4 class="tracking-card__title">Work</h4>
-                <button
-                  class="tracking-card__button"
-                  type="button"
-                  aria-label="Menu">
-                  <img
-                    class="tracking-card__menu"
-                    src="./images/icon-ellipsis.svg"
-                    alt="Menu">
-                  <span class="visually-hidden">Menu</span>
-                </button>
-              </header>
-              <div class="tracking-card__body">
-                <p class="tracking-card__time">
-                  <span>5</span>hrs
-                </p>
-                <p class="tracking-card__prev-period">
-                  Last Week -
-                  <span>7</span>hrs
-                </p>
-              </div>
-            </article>
-          </div>
-          <div class="dashboard__item dashboard__item--work">
-            <article class="tracking-card">
-              <header class="tracking-card__header">
-                <h4 class="tracking-card__title">Work</h4>
-                <button
-                  class="tracking-card__button"
-                  type="button"
-                  aria-label="Menu">
-                  <img
-                    class="tracking-card__menu"
-                    src="./images/icon-ellipsis.svg"
-                    alt="Menu">
-                  <span class="visually-hidden">Menu</span>
-                </button>
-              </header>
-              <div class="tracking-card__body">
-                <p class="tracking-card__time">
-                  <span>5</span>hrs
-                </p>
-                <p class="tracking-card__prev-period">
-                  Last Week -
-                  <span>7</span>hrs
-                </p>
-              </div>
-            </article>
-          </div>
-          <div class="dashboard__item dashboard__item--work">
-            <article class="tracking-card">
-              <header class="tracking-card__header">
-                <h4 class="tracking-card__title">Work</h4>
-                <button
-                  class="tracking-card__button"
-                  type="button"
-                  aria-label="Menu">
-                  <img
-                    class="tracking-card__menu"
-                    src="./images/icon-ellipsis.svg"
-                    alt="Menu">
-                  <span class="visually-hidden">Menu</span>
-                </button>
-              </header>
-              <div class="tracking-card__body">
-                <p class="tracking-card__time">
-                  <span>5</span>hrs
-                </p>
-                <p class="tracking-card__prev-period">
-                  Last Week -
-                  <span>7</span>hrs
-                </p>
-              </div>
-            </article>
-          </div>
-          <div class="dashboard__item dashboard__item--work">
-            <article class="tracking-card">
-              <header class="tracking-card__header">
-                <h4 class="tracking-card__title">Work</h4>
-                <button
-                  class="tracking-card__button"
-                  type="button"
-                  aria-label="Menu">
-                  <img
-                    class="tracking-card__menu"
-                    src="./images/icon-ellipsis.svg"
-                    alt="Menu">
-                  <span class="visually-hidden">Menu</span>
-                </button>
-              </header>
-              <div class="tracking-card__body">
-                <p class="tracking-card__time">
-                  <span>5</span>hrs
-                </p>
-                <p class="tracking-card__prev-period">
-                  Last Week -
-                  <span>7</span>hrs
-                </p>
-              </div>
-            </article>
-          </div>
-          <div class="dashboard__item dashboard__item--work">
-            <article class="tracking-card">
-              <header class="tracking-card__header">
-                <h4 class="tracking-card__title">Work</h4>
-                <button
-                  class="tracking-card__button"
-                  type="button"
-                  aria-label="Menu">
-                  <img
-                    class="tracking-card__menu"
-                    src="./images/icon-ellipsis.svg"
-                    alt="Menu">
-                  <span class="visually-hidden">Menu</span>
-                </button>
-              </header>
-              <div class="tracking-card__body">
-                <p class="tracking-card__time">
-                  <span>5</span>hrs
-                </p>
-                <p class="tracking-card__prev-period">
-                  Last Week -
-                  <span>7</span>hrs
-                </p>
-              </div>
-            </article>
-          </div>
-          <div class="dashboard__item dashboard__item--work">
-            <article class="tracking-card">
-              <header class="tracking-card__header">
-                <h4 class="tracking-card__title">Work</h4>
-                <button
-                  class="tracking-card__button"
-                  type="button"
-                  aria-label="Menu">
-                  <img
-                    class="tracking-card__menu"
-                    src="./images/icon-ellipsis.svg"
-                    alt="Menu">
-                  <span class="visually-hidden">Menu</span>
-                </button>
-              </header>
-              <div class="tracking-card__body">
-                <p class="tracking-card__time">
-                  <span>5</span>hrs
-                </p>
-                <p class="tracking-card__prev-period">
-                  Last Week -
-                  <span>7</span>hrs
-                </p>
-              </div>
-            </article>
           </div>
         </div>
       </section>
