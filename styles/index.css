@@ -77,7 +77,7 @@ button {
 .dashboard__wrapper {
   display: grid;
   gap: 1.5rem;
-  grid-template-columns: repeat(1, minmax(18.7rem5, 20.625rem));
+  grid-template-columns: repeat(1, minmax(18.7rem, 20.625rem));
   justify-content: center;
   width: 100%;
   max-width: 900px;
